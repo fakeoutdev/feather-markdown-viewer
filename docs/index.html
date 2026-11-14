@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feather - Markdown Viewer サポート</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="./">Feather - Markdown Viewer</a>
+  <nav><a href="privacy.html">プライバシーポリシー</a><a href="en/" lang="en">English</a></nav>
+</header>
+
+<h1>サポート</h1>
+<p>Feather は、エクスプローラーで <code>.md</code> ファイルをダブルクリックするとすぐに表示される、読む専用の軽量な Markdown ビューアです。Mermaid の図の表示や、本文の幅・文字サイズ・行間・フォントなどの読みやすさの設定に対応しています。</p>
+
+<h2>動作環境</h2>
+<ul>
+  <li>Windows 11（バージョン 22H2 以降）</li>
+  <li>Microsoft Store からインストールします</li>
+</ul>
+
+<h2>よくある質問</h2>
+
+<h3>.md ファイルをダブルクリックで Feather で開くには？</h3>
+<p>Windows では、アプリが自分で既定のアプリを変更することはできません。次のどちらかで設定してください。</p>
+<ul>
+  <li>Feather をファイルを開かずに起動し、ようこそ画面の「既定のアプリの設定を開く」を押す。表示された画面で「.md」の既定のアプリに「Feather - Markdown Viewer」を選ぶ</li>
+  <li>エクスプローラーで .md ファイルを右クリック →「プログラムから開く」→「別のプログラムを選択」→「Feather - Markdown Viewer」を選び、「常に使う」を押す</li>
+</ul>
+
+<h3>文字化けする</h3>
+<p>Feather は文字コード（UTF-8、Shift_JIS、EUC-JP など）を自動で判定します。判定した文字コードはウィンドウ右下のステータスバーに表示されます。それでも文字化けする場合は、下の「不具合の報告」からお知らせください。可能であれば、問題のファイル（または同じ現象が起きる短いファイル）を添付してください。</p>
+
+<h3>外部エディタを変えたい</h3>
+<p>右上の「…」（その他）→「外部エディタを変更…」から選び直せます。一覧にないエディタは「参照…」で選べます。</p>
+
+<h3>画像が表示されない</h3>
+<p>文書と同じフォルダーなど、PC 内の画像（相対パス・絶対パス）と、インターネット上の画像に対応しています。インターネット上の画像は、配信元のサイトの状況やネットワークの接続状態によって表示されないことがあります。</p>
+
+<h3>リンクをクリックしても開かない</h3>
+<p>安全のため、実行ファイルやスクリプト（.exe、.bat、.ps1 など）へのリンクは開きません。「ファイルの場所を開く」で保存場所を表示できます。それ以外の PC 内のファイルは、確認してから既定のアプリで開きます。</p>
+
+<h3>設定や最近開いたファイルの記録を消したい</h3>
+<p>最近開いたファイルは、ようこそ画面の「すべて消去」で消せます。表示設定の「最近開いたファイルを記録する」をオフにすると、記録しなくなります。設定・記録・ログは、アプリをアンインストールするとすべて削除されます。</p>
+
+<h2>不具合の報告・ご要望</h2>
+<p>GitHub の Issues で受け付けています（GitHub のアカウントが必要です）。</p>
+<p><a href="https://github.com/fakeoutdev/feather-markdown-viewer/issues/new/choose">不具合の報告・ご要望を送る</a></p>
+<div class="box">
+  <p><strong>不具合の報告に添付していただけると助かるもの</strong></p>
+  <ul>
+    <li>Feather のバージョン（「…」→「バージョン情報」）</li>
+    <li>ログファイル: 「…」→「ログフォルダーを開く」で開くフォルダーの <code>feather.log</code>。ログには開いたファイルの<strong>ファイル名</strong>が含まれます（フォルダーの場所は含まれません）。公開したくない名前があれば、伏せてから添付してください</li>
+    <li>問題が起きた Markdown ファイル（公開して問題ない場合のみ）</li>
+  </ul>
+</div>
+
+<footer>
+  <a href="privacy.html">プライバシーポリシー</a> ・ <a href="en/" lang="en">English</a>
+</footer>
+</body>
+</html>

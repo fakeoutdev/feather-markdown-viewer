@@ -1,0 +1,11 @@
+name: ご要望 / Feature request
+description: 欲しい機能や改善の提案 / Suggest a feature or improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: ご要望 / Request
+      description: どんなときに、何ができると助かるか / When would it help, and what should Feather do?
+    validations:
+      required: true

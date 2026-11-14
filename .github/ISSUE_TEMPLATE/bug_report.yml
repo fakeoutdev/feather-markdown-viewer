@@ -1,0 +1,41 @@
+name: 不具合の報告 / Bug report
+description: うまく動かないことを報告する / Report something that does not work
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ご報告ありがとうございます。公開される場所なので、個人情報や公開したくない内容は書かないでください。
+        Thank you for the report. This is public: please do not include personal or confidential information.
+  - type: input
+    id: version
+    attributes:
+      label: Feather のバージョン / Feather version
+      description: 「…」→「バージョン情報」/ "…" → "About"
+      placeholder: "0.2.0"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows のバージョン / Windows version
+      description: 設定 → システム → バージョン情報 / Settings → System → About
+      placeholder: "Windows 11 Home 24H2"
+  - type: textarea
+    id: what
+    attributes:
+      label: 起きたこと / What happened
+      description: 何をしたときに、何が起きたか / What you did and what happened
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待した動作 / What you expected
+  - type: textarea
+    id: log
+    attributes:
+      label: ログ / Log
+      description: |
+        「…」→「ログフォルダーを開く」の feather.log を添付してください。開いたファイルのファイル名が含まれるので、公開したくない名前は伏せてください。
+        Attach feather.log from "…" → "Open log folder". It contains the names of files you opened; remove any you do not want to share.

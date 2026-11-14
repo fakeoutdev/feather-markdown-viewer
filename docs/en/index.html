@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Feather - Markdown Viewer Support</title>
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header>
+  <a class="brand" href="./">Feather - Markdown Viewer</a>
+  <nav><a href="privacy.html">Privacy policy</a><a href="../" lang="ja">日本語</a></nav>
+</header>
+
+<h1>Support</h1>
+<p>Feather is a lightweight, read-only Markdown viewer: double-click a <code>.md</code> file in File Explorer and it is on screen right away. It renders Mermaid diagrams and lets you adjust readability: text width, font size, line spacing and fonts.</p>
+
+<h2>Requirements</h2>
+<ul>
+  <li>Windows 11 (version 22H2 or later)</li>
+  <li>Installed from the Microsoft Store</li>
+</ul>
+
+<h2>Frequently asked questions</h2>
+
+<h3>How do I open .md files with Feather by double-clicking?</h3>
+<p>Windows does not let apps change the default app themselves. Use either of these:</p>
+<ul>
+  <li>Start Feather without a file and press "Open Default apps settings" on the welcome screen. Choose "Feather - Markdown Viewer" as the default app for ".md".</li>
+  <li>In File Explorer, right-click a .md file → "Open with" → "Choose another app" → "Feather - Markdown Viewer", then press "Always".</li>
+</ul>
+
+<h3>Text looks garbled</h3>
+<p>Feather detects the text encoding (UTF-8, Shift_JIS, EUC-JP and others) automatically and shows it in the status bar at the bottom right. If text still looks wrong, please report it (see below), ideally with the file or a short file that shows the same problem.</p>
+
+<h3>How do I change the external editor?</h3>
+<p>Use "…" (More) at the top right → "Change external editor…". Editors that are not in the list can be chosen with "Browse…".</p>
+
+<h3>Images are not shown</h3>
+<p>Feather shows images on your PC (relative or absolute paths, for example next to the document) and images on the internet. Internet images depend on the site that serves them and on your connection.</p>
+
+<h3>A link does not open</h3>
+<p>For your safety, links to programs and scripts (.exe, .bat, .ps1 and so on) are never opened; "Open file location" shows where the file is. Other files on your PC open with their default app after you confirm.</p>
+
+<h3>How do I clear my settings or recent files?</h3>
+<p>"Clear all" on the welcome screen removes the recent files. Turn off "Remember recent files" in Display settings to stop recording them. Settings, recent files and logs are all removed when you uninstall the app.</p>
+
+<h2>Report a problem or request a feature</h2>
+<p>We use GitHub Issues (a GitHub account is required).</p>
+<p><a href="https://github.com/fakeoutdev/feather-markdown-viewer/issues/new/choose">Report a problem or request a feature</a></p>
+<div class="box">
+  <p><strong>Helpful to include in a bug report</strong></p>
+  <ul>
+    <li>The Feather version ("…" → "About")</li>
+    <li>The log file: <code>feather.log</code> in the folder opened by "…" → "Open log folder". The log contains the <strong>names</strong> of files you opened (not their folders). Remove any names you do not want to share before attaching it.</li>
+    <li>The Markdown file that shows the problem (only if it is fine to make it public)</li>
+  </ul>
+</div>
+
+<footer>
+  <a href="privacy.html">Privacy policy</a> · <a href="../" lang="ja">日本語</a>
+</footer>
+</body>
+</html>
