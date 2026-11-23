@@ -4,6 +4,11 @@
 
 ## 日本語
 
+### 1.2.0（未公開）
+
+- YAML の Frontmatter（文書先頭の `---` で囲んだ部分）を本文の前に表で表示。表示設定の「Frontmatter」で、縦並び・横並び（GitHub と同じ）・コードブロック（書いたままの YAML）から選べる
+- 修正: 1920×1080 などのディスプレイで、新しいウィンドウの下端がタスクバーに隠れることがある問題
+
 ### 1.1.0（2026-11-21）
 
 - ステータスバーに文書の行数とファイルサイズを表示（ファイルサイズにマウスを乗せるとバイト数）
@@ -30,6 +35,11 @@
 - データを収集・送信しない
 
 ## English
+
+### 1.2.0 (unreleased)
+
+- YAML front matter (the block between `---` lines at the top of a document) is shown as a table before the text. Choose Vertical, Horizontal (as on GitHub) or Code block (the YAML as written) under "Front matter" in the view settings
+- Fixed: on displays such as 1920×1080, the bottom of a new window could be hidden behind the taskbar
 
 ### 1.1.0 (2026-11-21)
 
