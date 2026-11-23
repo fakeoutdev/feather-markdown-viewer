@@ -4,6 +4,13 @@
 
 ## 日本語
 
+### 1.1.0（2026-11-21）
+
+- ステータスバーに文書の行数とファイルサイズを表示（ファイルサイズにマウスを乗せるとバイト数）
+- 修正: エクスプローラーで `.md` ファイルを続けてすばやく開くと、応答しなくなることがある問題
+- 修正: 同じファイルをすばやく続けて開くと、ウィンドウが 2 つ開くことがある問題
+- 修正: すでに Feather を起動しているときに別のファイルを開くと、新しいウィンドウが前面に出ないことがある問題
+
 ### 1.0.0（2026-11-16）
 
 最初のリリースです。
@@ -23,6 +30,13 @@
 - データを収集・送信しない
 
 ## English
+
+### 1.1.0 (2026-11-21)
+
+- The status bar shows the line count and file size of the document (point at the size to see the exact number of bytes)
+- Fixed: opening `.md` files from File Explorer in quick succession could make Feather stop responding
+- Fixed: opening the same file twice in quick succession could open two windows
+- Fixed: while Feather was already running, the window for another file could open behind other windows
 
 ### 1.0.0 (2026-11-16)
 
